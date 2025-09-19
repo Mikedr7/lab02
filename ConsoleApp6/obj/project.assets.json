@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ClassLibrary4/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary4.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary4.dll": {}
+        }
+      },
+      "ClassLibrary5/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary5.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary5.dll": {}
+        }
+      },
+      "ClassLibrary6/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary6.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClassLibrary4/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary4/ClassLibrary4.csproj",
+      "msbuildProject": "../ClassLibrary4/ClassLibrary4.csproj"
+    },
+    "ClassLibrary5/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary5/ClassLibrary5.csproj",
+      "msbuildProject": "../ClassLibrary5/ClassLibrary5.csproj"
+    },
+    "ClassLibrary6/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary6/ClassLibrary6.csproj",
+      "msbuildProject": "../ClassLibrary6/ClassLibrary6.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ClassLibrary4 >= 1.0.0",
+      "ClassLibrary5 >= 1.0.0",
+      "ClassLibrary6 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\MICHELSON\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "J:\\C#\\ConsoleApp6\\ConsoleApp6.csproj",
+      "projectName": "ConsoleApp6",
+      "projectPath": "J:\\C#\\ConsoleApp6\\ConsoleApp6.csproj",
+      "packagesPath": "C:\\Users\\MICHELSON\\.nuget\\packages\\",
+      "outputPath": "J:\\C#\\ConsoleApp6\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\MICHELSON\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "J:\\C#\\ClassLibrary4\\ClassLibrary4.csproj": {
+              "projectPath": "J:\\C#\\ClassLibrary4\\ClassLibrary4.csproj"
+            },
+            "J:\\C#\\ClassLibrary5\\ClassLibrary5.csproj": {
+              "projectPath": "J:\\C#\\ClassLibrary5\\ClassLibrary5.csproj"
+            },
+            "J:\\C#\\ClassLibrary6\\ClassLibrary6.csproj": {
+              "projectPath": "J:\\C#\\ClassLibrary6\\ClassLibrary6.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
